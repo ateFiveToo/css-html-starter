@@ -87,3 +87,77 @@ h2 {
     flex: 4;
     border-radius: 5px;
 }
+
+/* Buttons */
+
+.flex-container-btns {
+    display: flex;
+    height: 250px;
+    gap: 5px;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+.item-btn {
+    display: flex;
+    justify-content: center;
+ }
+
+/* Default button */
+
+ .btn {
+    background-color: whitesmoke;
+    color: black;
+    font-style: normal;
+    font-family: sans-serif;
+    font-weight: 700;
+    border-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1px 1px rgb(190, 184, 184);
+    padding: auto;
+    min-width: fit-content;
+    min-height: fit-content;
+ }
+ .btn:hover {
+    background-color: rgb(160, 216, 250);
+    transition: 0.5s;
+ }
+.btn:active {
+    background-color: rgb(86, 186, 248);
+}
+
+/* Light & dark buttons */
+
+
+
+.btn-item1 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px;
+}
+.btn-item2 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px;
+}
+.btn-item3 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px;
+}
+.btn-item4 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px;
+}
+.btn-item5 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px;
+}
+.btn-item6 {
+    background-color: white;
+    flex: 4;
+    border-radius: 5px
+}
